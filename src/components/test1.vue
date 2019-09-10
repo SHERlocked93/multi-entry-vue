@@ -1,7 +1,10 @@
 <template>
-  <div class="hello">
-    <h2>Hello word~</h2>
-    
+  <div>
+    <h2>
+      in test1.vue
+    </h2>
+  
+  
     <p>{{ count }}</p>
     <p>
       <button @click="$store.dispatch('increment')">+</button>
@@ -10,9 +13,9 @@
   </div>
 </template>
 
-<script>
+<script type='text/javascript'>
     export default {
-        name: 'HelloWorld',
+        name: 'test1',
         computed: {
             count() {
                 return this.$store.state.count
@@ -21,4 +24,6 @@
     }
 </script>
 
-<style scoped></style>
+<style rel="stylesheet/scss" lang="scss" scoped>
+
+</style>

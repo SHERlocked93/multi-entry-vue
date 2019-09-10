@@ -1,7 +1,7 @@
 {
   "name": "multi-entry-vue",
   "version": "1.0.0",
-  "description": "Multi entry vue demo",
+  "description": "Multi webpack entry vue demo.",
   "author": "SHERlocked93 <443033099@qq.com>",
   "private": true,
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -27,7 +28,9 @@
     "babel-preset-stage-2": "^6.22.0",
     "chalk": "^2.0.1",
     "copy-webpack-plugin": "^4.0.1",
-    "css-loader": "^0.28.0",
+    "css-loader": "^3.2.0",
+    "sass-loader": "^7.2.0",
+    "node-sass": "^4.12.0",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
