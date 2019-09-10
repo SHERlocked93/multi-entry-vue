@@ -11,5 +11,5 @@ new Vue({
   el: '#app',
   router,
   components: { App2 },
-  template: '<App/>'
+  template: '<App2/>'
 })

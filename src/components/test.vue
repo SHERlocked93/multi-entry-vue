@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
-    <h1>in test.vue</h1>
-  
+    <h2>in test.vue</h2>
   </div>
 </template>
 
